@@ -19,7 +19,7 @@ header
 	box-sizing: border-box;
 	text-align: center;
 
-	height: max(5em, min(4em, 5.5vw));
+	height: max(6em, min(5em, 6.5vw));
 
 	font-family: Life Savers;
 	font-style: normal;
