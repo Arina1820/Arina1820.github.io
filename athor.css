@@ -1,0 +1,145 @@
+.head
+{
+    background: rgba(147, 183, 204, 0.55);
+    padding: 1em;
+    margin-top: 4em;
+    margin-bottom: 1em;
+    font-family: Life Savers;
+    font-style: normal;
+    font-weight: 800;
+    font-size: max(1.5em, min(2em, 1.5vw));
+    text-align: center;
+
+    height: 20px;
+
+    color: #CAEEFF;
+
+}
+
+.flexS1
+{
+    display: flex;
+    gap: 5px;
+    flex-flow: row wrap;
+    width: 100%;        
+}
+
+    
+    .initB
+    {
+        position: relative; 
+        text-align: center;
+        flex: 2 2 25%;
+        order: 1;
+    }
+
+
+    .initB img 
+    {
+        margin: 1em;
+        border: 10px solid #93B7CC;
+        border-radius: 39px;
+    }
+       
+    .initE
+    {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 3em;
+        margin-right: 3em;
+        vertical-align:top;
+        background: rgba(147, 183, 204, 0.55);
+        font-family: Life Savers;
+        font-style: normal;
+
+        font-size: max(1.5em, min(2em, 1.5vw));
+        text-align: center;
+        border: 10px solid #93B7CC;
+
+        color: #CAEEFF; 
+
+        flex: 2 2 25%;
+        order: 2;
+    }
+
+.flexS2
+{
+    display: flex;
+    gap: 5px;
+    flex-flow: row wrap;
+    width: 100%;        
+ }
+
+    .initC
+    {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 3em;
+        margin-right: 3em;
+        vertical-align:top;
+        background: rgba(147, 183, 204, 0.55);
+        font-family: Life Savers;
+        font-style: normal;
+
+        font-size: max(1.5em, min(2em, 1.5vw));
+        text-align: center;
+        border: 10px solid #93B7CC;
+
+        color: #CAEEFF; 
+
+        flex: 2 2 25%;
+        order: 1;
+        }
+
+        .initD
+        {
+        position: relative; 
+        text-align: center;
+        flex: 2 2 25%;
+        order: 2;
+    }
+
+    .initD img 
+    {
+        margin: 1em;
+        border: 10px solid #93B7CC;
+        border-radius: 39px;
+    } 
+
+ @media only screen and ( max-width: 840px)
+        {
+
+        .flexS1, flexS2
+        {
+            display: flex;
+            gap: 10px;
+            flex-flow: row wrap;
+            width: 100%;        
+        }
+
+        .initB
+        {
+            flex: 2 2 100%;
+            order: 1;
+        }
+        
+        .initE
+        {
+            flex: 2 2 100%;
+            order: 2;
+        }
+
+        .initC
+        {
+            flex: 2 2 100%;
+            order: 2;
+        }
+        
+        .initD
+        {
+            flex: 2 2 100%;
+            order: 1;
+        }
+    }
+
+

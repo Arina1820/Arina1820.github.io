@@ -1,0 +1,174 @@
+.head
+{
+	background: rgba(147, 183, 204, 0.55);
+	padding: 1em;
+	margin-top: 4em;
+	margin-bottom: 1em;
+	font-family: Life Savers;
+	font-style: normal;
+	font-weight: 800;
+	font-size: max(1.5em, min(2em, 1.5vw));
+	text-align: center;
+
+	height: 20px;
+
+	color: #CAEEFF;
+
+    box-sizing: border-box;
+    position: relative;
+
+}
+
+.flexS
+{
+    display: flex;
+    gap: 5px;
+    flex-flow: row wrap;
+    width: 100%;   
+    box-sizing: border-box;
+    position: relative;     
+}
+
+	.initA
+    {
+        margin-top: 3em;
+        margin-bottom: 1em;
+        margin-right: 2em;
+        margin-left: 2em;
+    	vertical-align:top;
+    	background: rgba(147, 183, 204, 0.55);
+    	font-family: Life Savers;
+    	font-style: normal;
+    	font-weight: 800;
+    	font-size: max(1.5em, min(2em, 1.5vw));
+    	text-align: center;
+
+    	color: #CAEEFF;	
+
+        flex: 3 3 100%;
+        order: 1;
+    }
+    
+    .initB
+    {
+      	position: relative;	
+      	text-align: center;
+        box-sizing: border-box;
+        flex: 2 2 25%;
+        order: 2;
+    }
+
+
+    .initB img 
+    {
+    	box-sizing: border-box;
+        position: relative;
+        margin: 1em;
+    	border: 10px solid #93B7CC;
+    	border-radius: 39px;
+
+	}
+       
+    .initE
+    {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 3em;
+        margin-right: 3em;
+    	vertical-align:top;
+    	background: rgba(147, 183, 204, 0.55);
+    	font-family: Life Savers;
+    	font-style: normal;
+
+    	font-size: max(1.5em, min(2em, 1.5vw));
+    	text-align: center;
+    	border: 10px solid #93B7CC;
+
+    	color: #CAEEFF;	
+
+        flex: 2 2 25%;
+        order: 3;
+    }
+
+.to-up {
+    width: 100%;
+	margin-top: 1em;
+	margin-right: 15em;
+    margin-left: 15em;
+    justify-content: center;  align-content: space-between;  align-items: center;  flex-direction: column;
+	background: rgba(147, 183, 204, 0.55);
+	font-family: Life Savers;
+	font-style: normal;
+
+	font-size: max(0.8em, min(1em, 1.2vw));
+	border: 5px solid #93B7CC;
+	text-align: center;
+
+
+	color: #CAEEFF;	
+    cursor: pointer;
+
+}
+
+    .to-up :after 
+    {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+
+ .to-up:hover 
+ {
+
+        background-color: #576F8A;
+ }
+
+ @media only screen and ( max-width: 840px)
+        {
+        .flexF
+        {
+            display: flex;
+            flex-direction: column;
+        }
+        .flexS
+        {
+            display: flex;
+            gap: 10px;
+            flex-flow: row wrap;
+            width: 100%;        
+        }
+        .initA
+        {
+            flex: 2 2 100%;
+            order: 1;
+        }
+        .initB
+        {
+            flex: 2 2 100%;
+            order: 2;
+        }
+        
+        .initE
+        {
+            flex: 2 2 100%;
+            order: 3;
+        }
+
+
+}
+
+ .img-magnifier-glass 
+ {
+  box-sizing: border-box;
+  position: absolute;
+  border: 3px solid rgba(147, 183, 204, 0.55);
+  border-radius: 50%;
+  cursor: none;
+
+  width: 98px;
+  height: 98px;
+  z-index: 90;
+
+}
+
